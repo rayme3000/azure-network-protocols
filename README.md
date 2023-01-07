@@ -29,9 +29,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![nsg vms](https://user-images.githubusercontent.com/59034949/211152518-58571969-a6fd-4514-81bc-e5e855694202.png)
+
 <p>
 1. Create a Resource Group
 <br>

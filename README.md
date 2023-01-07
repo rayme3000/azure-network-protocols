@@ -39,7 +39,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 3. Create a Linux (Ubuntu) VM.
 <br>
-**Note: If a troubleshooting error appears, make sure the "NetworkWactherRG" is inside of the same resource group as the VMs.
+**Note: If a troubleshooting error appears, make sure the "NetworkWactherRG" is inside of the same resource group as the VMs.<br>
 4. Observe Your Virtual Network within Network Watcher.
 
 </p>

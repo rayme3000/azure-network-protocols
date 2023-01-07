@@ -30,6 +30,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 ![nsg vms](https://user-images.githubusercontent.com/59034949/211152518-58571969-a6fd-4514-81bc-e5e855694202.png)
+![nsg net](https://user-images.githubusercontent.com/59034949/211152875-c9b96267-382d-410a-b18e-519c7b8ced3d.png)
+
 
 <p>
 1. Create a Resource Group
@@ -41,12 +43,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 **Note: If a troubleshooting error appears, make sure the "NetworkWactherRG" is inside of the same resource group as the VMs.<br>
 4. Observe Your Virtual Network within Network Watcher.
 
-</p>
-<br />
+![nsg rdp](https://user-images.githubusercontent.com/59034949/211152903-ffd8de06-c587-4581-bff4-3c016f224fea.png)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+  
 <p>
 5. Use Remote Desktop to connect to your Windows 10 Virtual Machine.
 <br>
@@ -60,13 +59,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 10. Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.
 
-</p>
-<br />
+![nsg wire](https://user-images.githubusercontent.com/59034949/211153027-2e80b34e-d0e4-4512-bb77-784ab045b600.png)
+![nsg ping](https://user-images.githubusercontent.com/59034949/211153053-dcf76720-aa39-4a37-92b6-51289b589d58.png)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+  
 11. In Wireshark, filter for SSH traffic only. From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address). Type commands (ls, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark. Exit the SSH connection by typing ‘exit’ and pressing [Enter].
 <br>
 12. Back in Wireshark, filter for DHCP, DNS, and RDP traffic only (indivually). Observe each protocol’s traffic appearing in WireShark.
